@@ -6,6 +6,9 @@ import com.example.management.bean.BannerBean;
 import io.reactivex.Flowable;
 import retrofit2.http.GET;
 
+/**
+ * @author why
+ */
 public interface ApiService {
 
 

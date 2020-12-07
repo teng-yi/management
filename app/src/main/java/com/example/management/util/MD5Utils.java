@@ -2,6 +2,9 @@ package com.example.management.util;
 
 import java.security.MessageDigest;
 
+/**
+ * @author why
+ */
 //MD5加密不可逆
 public class MD5Utils {
     /*对密码进行加密

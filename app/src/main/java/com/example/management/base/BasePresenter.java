@@ -8,6 +8,9 @@ import java.lang.ref.WeakReference;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
+/**
+ * @author why
+ */
 public abstract class BasePresenter<V extends IBaseView> implements IBasePresenter<V> {
     protected V mView;
     private WeakReference<V> mWeakReference;

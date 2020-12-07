@@ -8,7 +8,9 @@ import com.example.management.interfaces.IBaseView;
 import com.example.management.interfaces.home.IHome;
 
 import io.reactivex.subscribers.ResourceSubscriber;
-
+/**
+ * @author why
+ */
 public abstract class CommonSubscriber<T> extends ResourceSubscriber<T> {
 
     private IBaseView mView;

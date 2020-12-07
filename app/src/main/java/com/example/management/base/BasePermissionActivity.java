@@ -159,9 +159,12 @@ public abstract class BasePermissionActivity extends BaseActivity {
                         cb.callback(true);
                     }
                 } else {
-                    if (cb != null) cb.callback(false);
+                    if (cb != null) {
+                        cb.callback(false);
+                    }
                 }
                 break;
+            default:
         }
     }
 

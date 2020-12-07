@@ -12,7 +12,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author why
+ */
 public abstract class BaseAdapter<T> extends RecyclerView.Adapter {
 
     protected List<T> mData = new ArrayList<>();

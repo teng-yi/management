@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+
 import com.example.management.interfaces.IBasePresenter;
 import com.example.management.interfaces.IBaseView;
 
@@ -22,6 +23,9 @@ import butterknife.Unbinder;
 
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
+/**
+ * @author why
+ */
 public abstract class BaseActivity<P extends IBasePresenter> extends AppCompatActivity implements IBaseView {
     protected P mPresenter;
     private Unbinder bind;

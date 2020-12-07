@@ -7,10 +7,9 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.List;
 
+
 /**
- * @author: Why
- * Created on 2020/12/4 14:40
- * Desc: 底部导航切换适配器
+ * @author why
  */
 public class TabPagerAdapter extends FragmentPagerAdapter {
 

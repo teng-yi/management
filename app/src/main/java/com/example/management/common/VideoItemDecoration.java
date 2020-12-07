@@ -6,6 +6,9 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+/**
+ * @author why
+ */
 public class VideoItemDecoration extends RecyclerView.ItemDecoration {
 
     private int space; //item之间的间距

@@ -4,8 +4,7 @@ import java.util.List;
 
 /**
  * @author: Why
- * Created on 2020/12/1 17:02
- * E_Mail why_23456@163.com
+ * Created on 2020/12/7 14:03
  * Desc:
  */
 public class BannerBean {

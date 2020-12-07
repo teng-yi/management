@@ -16,7 +16,9 @@ import androidx.annotation.RequiresApi;
 
 import com.example.management.app.MyApp;
 
-
+/**
+ * @author why
+ */
 public class SystemUtils {
 
     /**

@@ -8,7 +8,9 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.management.common.CircleTransform;
-
+/**
+ * @author why
+ */
 public class GildeUtils {
 
 

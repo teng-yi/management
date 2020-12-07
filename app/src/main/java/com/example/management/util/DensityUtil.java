@@ -3,9 +3,7 @@ package com.example.management.util;
 import android.content.Context;
 
 /**
- * @TODO<分辨率转换工具类>
- * @author 小嵩
- * @date 2016-8-3 09:20:46
+ * @author why
  */
 public class DensityUtil {
     /**

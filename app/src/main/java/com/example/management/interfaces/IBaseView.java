@@ -1,5 +1,8 @@
 package com.example.management.interfaces;
 
+/**
+ * @author why
+ */
 public interface IBaseView {
 
     //展示错误信息

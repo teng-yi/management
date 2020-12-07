@@ -11,6 +11,7 @@ import android.renderscript.ScriptIntrinsicBlur;
 
 /**
  * 高斯模糊
+ * @author why
  */
 
 public class ImageFilterUtils {

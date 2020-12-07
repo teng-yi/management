@@ -18,7 +18,9 @@ public class DigestUtils {
      * @return
      */
     public static String Encrypt(String source, String encName) {
-        if (TextUtils.isEmpty(source)) return "";
+        if (TextUtils.isEmpty(source)) {
+            return "";
+        }
         MessageDigest messageDigest = null;
         String result = null;
         byte[] bytes = source.getBytes();

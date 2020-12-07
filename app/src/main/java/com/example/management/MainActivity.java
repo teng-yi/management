@@ -1,7 +1,6 @@
 package com.example.management;
 
 import android.content.Intent;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,7 +10,6 @@ import android.widget.TextView;
 import com.example.management.base.BaseActivity;
 import com.example.management.interfaces.IBasePresenter;
 import com.example.management.ui.HomeActivity;
-import com.example.management.util.ToastUtils;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -67,12 +65,14 @@ public class MainActivity extends BaseActivity {
                 String passWord = mUserPassword.getText().toString();
 
 //                if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(passWord) && name.matches("1[0-9]{10}") && passWord.matches("[0-9A-Za-z]{6,16}")) {
-//
+
                     startActivity(new Intent(this, HomeActivity.class));
-//
-//                } else {
-//                    ToastUtils.onShortToast("请输入用户名和密码");
-//                }
+/*
+
+                } else {
+                    ToastUtils.onShortToast("请输入用户名和密码");
+                }
+*/
 
                 break;
             case R.id.tv_forget:

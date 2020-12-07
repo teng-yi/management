@@ -16,7 +16,9 @@ import com.example.management.interfaces.IBaseView;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-
+/**
+ * @author why
+ */
 public abstract class BaseFragment<P extends IBasePresenter> extends Fragment implements IBaseView {
 
     protected Context mContext;

@@ -8,9 +8,7 @@ import com.example.management.base.BaseFragment;
 import com.example.management.interfaces.IBasePresenter;
 
 /**
- * @Author Why
- * Created on 2020/12/7
- * Desc : 用户
+ * @author why
  */
 
 public class UserFragment extends BaseFragment {
