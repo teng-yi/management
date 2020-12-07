@@ -2,6 +2,9 @@ package com.example.management.app;
 
 import android.app.Application;
 
+/**
+ * @author why
+ */
 public class MyApp extends Application {
 
     private static MyApp myApp;

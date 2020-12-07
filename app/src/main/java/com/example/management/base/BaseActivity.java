@@ -74,6 +74,7 @@ public abstract class BaseActivity<P extends IBasePresenter> extends AppCompatAc
     }
 
     private void initPresenter() {
+
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
         } else {
@@ -83,15 +84,15 @@ public abstract class BaseActivity<P extends IBasePresenter> extends AppCompatAc
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
         if (requestCode == 1) {
             for (int i = 0; i < permissions.length; i++) {
-                if (grantResults[i] == PERMISSION_GRANTED) {//选择了“始终允许”
-
+                //选择了“始终允许”
+                if (grantResults[i] == PERMISSION_GRANTED) {
 
                 } else {
-                    if (!ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[i])) {//用户选择了禁止不再询问
+                    //用户选择了禁止不再询问
+                    if (!ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[i])) {
 
                         AlertDialog.Builder builder = new AlertDialog.Builder(BaseActivity.this);
                         builder.setTitle("permission")

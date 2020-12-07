@@ -24,6 +24,7 @@ public abstract class BaseFragment<P extends IBasePresenter> extends Fragment im
     protected Context mContext;
 
     protected P mPresenter;
+
     private Unbinder mUnbinder;
 
     @Nullable

@@ -56,7 +56,7 @@ public abstract class BaseAdapter<T> extends RecyclerView.Adapter {
 
     protected abstract void onBindData(RecyclerView.ViewHolder mHolder, int position, T item);
 
-    //添加数据/下拉刷新
+    //添加数据   下拉刷新
     protected void addData(List<T> mData) {
         if (mData != null) {
             this.mData.clear();
